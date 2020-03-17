@@ -1,0 +1,75 @@
+.pki
+*.lock
+.well-known
+/logs
+/error_docs
+/.revisium_antivirus_cache
+/snapshots
+/.wp-cli
+##################################
+# WP Files
+##################################
+/wp-config.php
+/wp-content/themes/classic/
+/pinnaclewp/wp-content/themes/default/
+/pinnaclewp/wp-content/themes/twentyeleven/
+/pinnaclewp/wp-content/themes/twentytwelve/
+/pinnaclewp/wp-content/themes/twentyten/
+/pinnaclewp/wp-content/themes/twentythirteen/
+/pinnaclewp/wp-content/themes/twentysixteen/
+/pinnaclewp/wp-content/themes/twentyseventeen/
+/pinnaclewp/wp-content/themes/twentynineteen/
+/pinnaclewp/wp-content/themes/sovereign2019/node_modules/
+/pinnaclewp/wp-content/themes/sovereign2019/package-lock.json
+/pinnaclewp/wp-content/languages/
+/pinnaclewp/sitemap.xml
+/pinnaclewp/sitemap.xml.gz
+/pinnaclewp/.htaccess
+/composer.lock
+/composer.phar
+/error_docs
+/logs
+/statistics
+/vendor
+/snapshots
+/.env
+##################################
+# W3 Total Cache untracked files
+##################################
+/pinnaclewp/wp-content/advanced-cache.php
+/pinnaclewp/wp-content/db.php
+/pinnaclewp/wp-content/object-cache.php
+/pinnaclewp/wp-content/cache/
+/pinnaclewp/wp-content/plugins/w3-total-cache/
+/pinnaclewp/wp-content/w3tc-config/
+######################
+# OS generated files
+######################
+.DS_Store
+.DS_Store?
+.localized
+.Spotlight-V100
+.Trashes
+!Icon
+ehthumbs.db
+[Tt]humbs.db
+#############################
+# Logs, databases and misc.
+#############################
+*.log
+*.sql
+*.sqlite
+*.sass-cache
+############
+# Packages
+############
+# it's better to unpack these files and commit the raw source
+# git has its own built in compression methods
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
