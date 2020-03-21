@@ -46,7 +46,7 @@ include('header.php'); ?>
         <p>Here at Pinnacle, we are commited to helping you reach your maximum potential, whilst having the maximum fun with your favourite games and friends. We can help you with any aspect of your game, from the basics to high-level strategy.</p>
         <p>No matter what your area of expertise, from solo First Person Shooters, to Battle Royale's we have you covered. Or maybe you're a strategy person? We do that too! Team games are also our speciality so if you want to keep up with your friends check out our games!</p>
         <div class="button-align">
-          <a href="/pinnaclecoaching/games.php" title="See Our Games" class="button">See Our Games</a>
+          <a href="/pinnaclewp/games/" title="See Our Games" class="button">See Our Games</a>
         </div>
       </div>
     </div>
@@ -64,7 +64,7 @@ include('header.php'); ?>
         <p>Here at Pinnacle, we are commited to helping you reach your maximum potential, whilst having the maximum fun with your favourite games and friends. We can help you with any aspect of your game, from the basics to high-level strategy.</p>
         <p>No matter what your area of expertise, from solo First Person Shooters, to Battle Royale's we have you covered. Or maybe you're a strategy person? We do that too! Team games are also our speciality so if you want to keep up with your friends meet our coaches!</p>
         <div class="button-align">
-          <a href="/pinnaclecoaching/coaches.php" title="Meet Our Coaches" class="button">Meet Our Coaches</a>
+          <a href="/pinnaclewp/coaches/" title="Meet Our Coaches" class="button">Meet Our Coaches</a>
         </div>
       </div>
     </div>
@@ -78,7 +78,7 @@ include('header.php'); ?>
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin risus elit, blandit in felis ut, congue commodo mi. Nulla facilisi. Fusce tempus augue quis lectus molestie, at elementum justo consequat. Sed finibus efficitur ligula, quis rhoncus mauris auctor at. Sed pellentesque commodo facilisis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin risus elit, blandit in felis ut, congue commodo mi.</p>
       <p>Curabitur ut convallis orci. Ut mattis ac mauris quis hendrerit. Nam mollis malesuada consectetur. Aliquam ut bibendum eros. Vestibulum sed dignissim justo. In in purus consectetur, vehicula tortor in, scelerisque ante. Vivamus sagittis lobortis nunc, nec lacinia nulla dapibus vitae. Curabitur ut convallis orci. Ut mattis ac mauris quis hendrerit. Nam mollis malesuada consectetur. Aliquam ut bibendum eros. Vestibulum sed dignissim justo.</p>
       <div class="centered">
-        <a href="/pinnaclecoaching/games.php" title="See Our Games" class="button">See Our Games</a>
+        <a href="/pinnaclewp/games/" title="See Our Games" class="button">See Our Games</a>
       </div>
     </div>
   </div>
@@ -95,7 +95,7 @@ include('header.php'); ?>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin risus elit, blandit in felis ut, congue commodo mi. Nulla facilisi. Fusce tempus augue quis lectus molestie, at elementum justo consequat. Sed finibus efficitur ligula, quis rhoncus mauris auctor at. Sed pellentesque commodo facilisis. </p>
         <p>Curabitur ut convallis orci. Ut mattis ac mauris quis hendrerit. Nam mollis malesuada consectetur. Aliquam ut bibendum eros. Vestibulum sed dignissim justo. In in purus consectetur, vehicula tortor in, scelerisque ante. Vivamus sagittis lobortis nunc, nec lacinia nulla dapibus vitae. </p>
         <div class="button-align">
-          <a href="/pinnaclecoaching/news.php" title="Latest News" class="button">Latest News</a>
+          <a href="/pinnaclewp/news/" title="Latest News" class="button">Latest News</a>
         </div>
       </div>
     </div>
