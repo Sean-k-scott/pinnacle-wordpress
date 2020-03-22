@@ -91,8 +91,8 @@ section.home-topfold .to-content{position:absolute;bottom:50px;-webkit-animation
 section.home-improve .container{text-align:center}
 section.home-improve h2{color:#000079;margin-bottom:35px}
 section.home-improve .badges-container{display:-webkit-box;display:-ms-flexbox;display:flex;-ms-flex-pack:distribute;justify-content:space-around;-webkit-box-align:center;-ms-flex-align:center;align-items:center}
-section.home-yourdevice{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;background-size:cover;background-repeat:repeat-y;background-position:center center;min-height:550px;padding:50px 0}
-section.home-yourdevice .device__container{background-color:#fff;border-radius:25px;padding:30px 15px;max-width:700px}
+section.home-yourdevice .device__container,section.seo__full_width_background .device__container{background-color:#fff;border-radius:25px;padding:30px 15px;max-width:700px}
+section.home-yourdevice,section.seo__full_width_background{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;background-size:cover;background-repeat:repeat-y;background-position:center center;min-height:550px;padding:50px 0}
 section.games-topfold h1{color:#fff;text-shadow:0 2px 8px rgba(0,0,0,0.5)}
 section.games-choose p{max-width:900px;margin:0 auto 25px auto}
 section.games-choose .games__c2awrapper{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:horizontal;-webkit-box-direction:normal;-ms-flex-direction:row;flex-direction:row;-ms-flex-wrap:wrap;flex-wrap:wrap;-ms-flex-pack:distribute;justify-content:space-around;max-width:1200px}
@@ -232,10 +232,23 @@ section.seo__full_width .content p{text-align:center !important}
 section.seo__full_width .button-container{-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center}
 section.seo__full_width .button-container .button-align{margin-left:20px}
 section.seo__full_width .button-container .button-align:not(:first-child){margin-left:20px}
+section.seo__full_width_background{margin:100px 0}
+section.seo__full_width_background .device__container .button-container{-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center}
+section.seo__reasons_to_choose{padding:100px 0 !important}
+section.seo__reasons_to_choose .container{position:relative}
+section.seo__reasons_to_choose .image__desktop{display:none}
+section.seo__reasons_to_choose .image__mobile{display:block;text-align:center}
+section.seo__reasons_to_choose .reasons__wrapper{padding:0 20px;position:relative;z-index:2}
+section.seo__reasons_to_choose .reasons__infobox{background:#0a074a;color:#fff;padding:30px;position:relative;z-index:3;margin:0 auto}
+section.seo__reasons_to_choose .reasons__infobox h2{color:#fff !important}
+section.seo__reasons_to_choose .reasons__list{list-style-type:none;padding-left:0}
+section.seo__reasons_to_choose .reasons__list :last-child{padding-bottom:0}
+section.seo__reasons_to_choose .reasons__list li{padding-bottom:5px}
+section.seo__reasons_to_choose .reasons__list li .number{font-size:1.575em;padding-right:5px}
 @media(min-width:450px){.slideout{width:450px;right:-450px}
 .slideout__logo__site{font-size:2.1em}
 .slideout__nav ul li{font-size:1.8em}
-}@media(min-width:450px) and (max-width:768px){section.home-yourdevice .device__container{padding:30px 25px}
+}@media(min-width:450px) and (max-width:768px){section.home-yourdevice .device__container,section.seo__full_width_background .device__container{padding:30px 25px}
 section.game .game__infobox{padding:30px 25px}
 }@media(min-width:568px) and (max-width:991px){h1{font-size:2.400em}
 h2{font-size:2.188em}
@@ -265,8 +278,8 @@ footer .footer__contact__email:hover::before{visibility:visible;transform:scaleX
 footer .footer__nav ul a:hover::before{visibility:visible;transform:scaleX(1);-webkit-transform:scaleX(1);-moz-transform:scaleX(1)}
 footer .footer__nav{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center}
 .slideout__nav ul a:hover::before{visibility:visible;transform:scaleX(1);-webkit-transform:scaleX(1);-moz-transform:scaleX(1)}
-section.home-yourdevice{padding:100px 0}
-section.home-yourdevice .device__container{padding:50px}
+section.home-yourdevice .device__container,section.seo__full_width_background .device__container{padding:50px}
+section.home-yourdevice,section.seo__full_width_background{padding:100px 0}
 section.game .game__infobox{padding:50px}
 section.game-csgo{margin-top:100px}
 section.game-hearthstone{margin-bottom:100px}
@@ -289,6 +302,8 @@ section.seo.seo__top{padding:50px 0 100px 0}
 section.seo.seo__middle{padding:100px 0}
 section.seo.seo__bottom{padding:100px 0 50px 0}
 section.seo__full_width .button-container .button-align{margin-left:0}
+section.seo__reasons_to_choose .image__desktop{display:block}
+section.seo__reasons_to_choose .image__mobile{display:none}
 }@media(min-width:769px) and (max-width:992px){footer .container{padding:25px 50px;-webkit-box-orient:horizontal;-webkit-box-direction:normal;-ms-flex-direction:row;flex-direction:row;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center}
 }@media(min-width:992px){.content-left{margin-top:0;grid-column:2/7;grid-row:1}
 .content-right{margin-top:0;grid-column:9/14;grid-row:1}
@@ -301,6 +316,7 @@ h4{font-size:1.500em}
 h5{font-size:1.375em}
 section.coaches__info .coach-image{grid-column:1/5;grid-row:1}
 section.coaches__info .coach-content{margin-top:0;grid-column:6/14;grid-row:1}
+section.seo__reasons_to_choose .reasons__infobox{position:absolute;right:40px;top:70px;width:480px}
 }@media(min-width:993px){footer .container{-webkit-box-orient:horizontal;-webkit-box-direction:normal;-ms-flex-direction:row;flex-direction:row;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;padding:25px 75px}
 section.news__latest h2{text-align:left}
 section.news__latest .latest__article{max-width:100%;-webkit-box-orient:horizontal;-webkit-box-direction:normal;-ms-flex-direction:row;flex-direction:row;-webkit-box-align:start;-ms-flex-align:start;align-items:start}
@@ -308,7 +324,10 @@ section.news__latest .latest__article__info{padding-top:0;padding-left:25px}
 section.news__latest .latest__article__info h3,section.news__latest .latest__article__info h4,section.news__latest .latest__article__info h5,section.news__latest .latest__article__info p,section.news__latest .latest__article__info span{text-align:center;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center}
 section.news__previous h2{text-align:left}
 section.news__previous .previous__article{max-width:auto;-webkit-box-flex:45%;-ms-flex:45% 0 0;flex:45% 0 0}
+section.seo__reasons_to_choose{padding:100px 0 300px 0 !important}
+}@media(min-width:1200px){section.seo__reasons_to_choose .reasons__infobox{right:0;width:500px}
 }@media(max-width:992px){section.games-choose .games__c2awrapper .c2a{-webkit-box-flex:30%;-ms-flex:30% 0 0;flex:30% 0 0}
+}@media(max-width:991px){section.seo__reasons_to_choose .reasons__infobox{width:90%;margin-top:-60px}
 }@media(max-width:768px){.header-white .header__nav a:hover{opacity:.8}
 .header-transform .header__nav a:hover{opacity:.8}
 .header__nav ul a:hover{opacity:.8}
@@ -322,6 +341,7 @@ footer .divider.two{display:none}
 section.home-topfold .to-content{width:60px;left:calc(50% - 30px)}
 section.games-choose .games__c2awrapper .c2a{-webkit-box-flex:45%;-ms-flex:45% 0 0;flex:45% 0 0}
 }@media(max-width:568px){section.games-choose .games__c2awrapper .c2a{-webkit-box-flex:100%;-ms-flex:100% 0 0;flex:100% 0 0}
+}@media(max-width:567px){section.seo__reasons_to_choose .reasons__wrapper{padding:0}
 }@media(max-width:450px){.header__site{font-size:1em;text-align:center;max-width:100px}
 }@-webkit-keyframes bounce{from,20%,53%,80%,to{-webkit-animation-timing-function:cubic-bezier(0.215,0.61,0.355,1);animation-timing-function:cubic-bezier(0.215,0.61,0.355,1);-webkit-transform:translate3d(0,0,0);transform:translate3d(0,0,0)}
 40%,43%{-webkit-animation-timing-function:cubic-bezier(0.755,0.05,0.855,0.06);animation-timing-function:cubic-bezier(0.755,0.05,0.855,0.06);-webkit-transform:translate3d(0,-30px,0);transform:translate3d(0,-30px,0)}

@@ -116,3 +116,92 @@ section.seo__full_width {
     }
   }
 }
+
+// SEO Full Width background
+
+section.seo__full_width_background {
+  margin: 100px 0px;
+  @extend %full__width__background;
+  .device__container {
+    @extend %device__container;
+    .button-container {
+      justify-content: center;
+    }
+  }
+}
+
+// SEO Five Reasons
+
+section.seo__reasons_to_choose {
+    padding: 100px 0px!important;
+  @media (min-width: 993px) {
+    padding: 100px 0px 300px 0px!important;
+  }
+  .container {
+    position: relative;
+  }
+  .image {
+    &__desktop {
+      display: none;
+      @media (min-width: 769px) {
+        display: block;
+      }
+    }
+    &__mobile {
+      display: block;
+      text-align: center;
+      @media (min-width: 769px) {
+        display: none;
+      }
+    }
+  }
+  .reasons {
+      &__wrapper {
+      padding: 0px 20px;
+      position: relative;
+      z-index: 2;
+      @media (max-width: 567px) {
+          padding: 0px;
+      }
+    }
+    &__infobox {
+      background: $footerblue;
+      color: $white;
+      padding: 30px;
+      position: relative;
+      z-index: 3;
+      margin: 0 auto;
+      h2 {
+        color: $white!important;
+      }
+      @media (min-width: 1200px) {
+        right: 0px;
+        width: 500px;
+      }
+      @media (min-width: 992px) {
+        position: absolute;
+        right: 40px;
+        top: 70px;
+        width: 480px;
+      }
+      @media (max-width: 991px) {
+        width: 90%;
+        margin-top: -60px;
+      }
+    }
+    &__list {
+      list-style-type: none;
+      padding-left: 0px;
+      :last-child {
+        padding-bottom: 0px;
+      }
+      li {
+        padding-bottom: 5px;
+        .number {
+          font-size: 1.575em;
+          padding-right: 5px;
+        }
+      }
+    }
+  }
+}

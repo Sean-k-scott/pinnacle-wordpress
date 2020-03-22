@@ -30,7 +30,20 @@ section.home-improve {
   }
 }
 
-section.home-yourdevice {
+%device__container {
+  background-color: $white;
+  border-radius: 25px;
+  padding: 30px 15px;
+  max-width: 700px;
+  @media (min-width: 450px) and (max-width: 768px) {
+    padding: 30px 25px;
+  }
+  @media (min-width: 769px) {
+    padding: 50px;
+  }
+}
+
+%full__width__background {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -42,17 +55,11 @@ section.home-yourdevice {
   @media (min-width: 769px) {
     padding: 100px 0px;
   }
+}
 
+section.home-yourdevice {
+  @extend %full__width__background;
   .device__container {
-    background-color: $white;
-    border-radius: 25px;
-    padding: 30px 15px;
-    max-width: 700px;
-    @media (min-width: 450px) and (max-width: 768px) {
-      padding: 30px 25px;
-    }
-    @media (min-width: 769px) {
-      padding: 50px;
-    }
+    @extend %device__container;
   }
 }
