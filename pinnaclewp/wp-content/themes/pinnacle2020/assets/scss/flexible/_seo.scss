@@ -205,3 +205,57 @@ section.seo__reasons_to_choose {
     }
   }
 }
+
+section.seo__fifty_fifty {
+  margin: 75px 0px!important;
+  padding-top: 0px!important;
+  @media (min-width: 769px) {
+    margin: 100px 0px!important;
+  }
+  position: relative;
+  background: $footerblue;
+  z-index: 1;
+  .image {
+    &__right {
+      display: none;
+      @media (min-width: 993px) {
+        display: block;
+        z-index: 2;
+        position: absolute;
+        top: 0px;
+        right: 0px;
+        width: 50vw;
+        bottom: 0px;
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+      }
+    }
+    &__design {
+      display: block;
+      @media(min-width: 993px) {
+        display: none;
+      }
+    }
+  }
+  .section {
+    &__content {
+      display: flex;
+      flex-direction: column;
+      flex: 0 1 100%;
+      max-width: 100%;
+      padding-right: 0px;
+      padding-top: 50px;
+      @media (min-width: 993px) {
+        flex: 0 0 50%;
+        max-width: 50%;
+        padding-right: 35px;
+        padding-top: 100px;
+      }
+      h2 {
+        color: $white;
+      }
+      color: $white;
+    }
+  }
+}
